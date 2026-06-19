@@ -1,27 +1,130 @@
-# 💫 About Me:
-🔭 I’m currently working on Business Analytics, Data Visualization, and Machine Learning projects using Python, SQL, R, Tableau, and Power BI.<br>👯 I’m looking to collaborate on data analytics, business intelligence, dashboarding, and predictive modeling projects.<br>🤝 I’m looking for help with advanced SQL, cloud analytics, and building production-ready analytics portfolios.<br>🌱 I’m currently learning advanced analytics, AI-assisted business analysis, data storytelling, and cloud-based BI tools.<br>💬 Ask me about Python, SQL, R, Excel, Tableau, Power BI, data cleaning, EDA, reporting, and business insights.<br>⚡ Fun fact: I enjoy turning messy data into clear stories that help people make smarter decisions.<br>
+<div align="center">
 
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:5d576b,50:ed6a5a,100:9bc1bc&height=220&section=header&text=Abhinav%20Varma%20Konderu&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Data%20Analyst%20%C2%B7%20M.S.%20Business%20Analytics%20%40%20CSUN&descAlignY=60&descSize=18)
 
-## 🌐 Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/kirankanth35) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/kirankanth35) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/kiran-kanth-madigani-2b3336221) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/https://x.com/kiran141007?s=11&t=RsAx1tp-WVnz2eMyTBW7AA) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@https://www.youtube.com/@kirankanth3065) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:kirankanth141007@gmail.com) 
+[![Portfolio](https://img.shields.io/badge/Portfolio-abhinavvarma.com-ed6a5a?style=for-the-badge&logo=safari&logoColor=white)](https://abhinavvarma.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-5d576b?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abhinav-varma723)
+[![Email](https://img.shields.io/badge/Email-Contact-9bc1bc?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abhinavvarmakonderu@gmail.com)
+[![Location](https://img.shields.io/badge/Los%20Angeles%2C%20CA-141414?style=for-the-badge&logo=google-maps&logoColor=white)](https://www.google.com/maps/place/Los+Angeles,+CA)
+![Profile views](https://komarev.com/ghpvc/?username=Abhiiiii7&color=ed6a5a&style=for-the-badge&label=Profile+Views)
 
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=Kirankanth35&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=Kirankanth35&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=Kirankanth35&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Kirankanth35&theme=radical&no-frame=false&no-bg=false&margin-w=4)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=Kirankanth35&limit=5&theme=dark&combine_all_yearly_contributions=true)
+</div>
 
 ---
-[![](https://komarev.com/ghpvc/?username=Kirankanth35&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## About
+
+I'm a Business Analytics graduate student (M.S., CSUN) and data analyst who turns messy operational data into forecasts, dashboards, and decisions. Over two years at **Indo Swiss Remedies** I built SQL, Power BI, and Python workflows that cut stockouts, automated reporting, and gave leaders visibility across regions and product lines. I also co-founded a D2C tea brand — so I read numbers with a P&L in mind: acquisition, retention, margin, and what actually moves revenue.
+
+`SQL / MySQL / PostgreSQL / T-SQL / Repeat`
+
+🔗 **See the work → [abhinavvarma.com](https://abhinavvarma.com)**
+
+---
+
+## Impact snapshot
+
+<div align="center">
+
+| Metric | Result | Where |
+|:---|:---|:---|
+| Stockouts reduced | **−18%** | Demand forecasting (pharma) |
+| Warehousing cost saved | **$20K** | Supply-chain optimization |
+| Forecast accuracy | **+12%** | 60+ product lines |
+| Reporting time saved | **15+ hrs/mo** | Power BI automation |
+| Reporting errors | **−22%** | Data standardization |
+| D2C revenue scaled | **$70K** | Herbal tea brand |
+| Repeat sales | **+40%** | Retention workflows |
+| QoQ growth | **+32%** | D2C analytics |
+
+</div>
+
+---
+
+## Experience
+
+**Data Analyst (Intern → Full-time)** · Indo Swiss Remedies Pvt Ltd · *Apr 2022 – May 2024*
+- Built forecasting models with supply chain & operations that cut stockouts 18% and saved $20K in warehousing costs.
+- Analyzed sales across 60+ pharmaceutical product lines in SQL, improving forecast accuracy 12% and flagging underperforming segments.
+- Designed executive Power BI KPI dashboards with drill-through, replacing manual spreadsheets across 10+ regions and saving 15+ hours monthly.
+- Automated Python validation across 20+ recurring reports, cutting errors 15% and freeing 6+ analyst hours weekly.
+
+**Co-Founder — D2C Herbal Tea Brand** · Butterfly Pea Flower Herbal Tea · *Feb 2023 – Jul 2024*
+- Scaled the brand to $70K revenue with 32% QoQ growth via acquisition, retention, and sales analysis.
+- Built Power BI dashboards on Shopify sales + customer data for KPIs, revenue, and inventory planning.
+- Closed repeat-purchase gaps with automated WhatsApp engagement, lifting repeat sales 40% while cutting COD/RTO losses.
+
+---
+
+## Featured projects
+
+<div align="center">
+
+[![Creator Economy Analytics](https://github-readme-stats.vercel.app/api/pin/?username=Abhiiiii7&repo=authority-to-visibility-amplification&title_color=ed6a5a&icon_color=5d576b&text_color=141414&bg_color=edf1e8&hide_border=true)](https://github.com/Abhiiiii7/authority-to-visibility-amplification)
+[![Healthcare Pricing Intelligence](https://github-readme-stats.vercel.app/api/pin/?username=Abhiiiii7&repo=healthcare-data-analysis-using-powerbi&title_color=ed6a5a&icon_color=5d576b&text_color=141414&bg_color=edf1e8&hide_border=true)](https://github.com/Abhiiiii7/healthcare-data-analysis-using-powerbi)
+
+[![E-Commerce Revenue Forecasting](https://github-readme-stats.vercel.app/api/pin/?username=Abhiiiii7&repo=Brazil-Ecommerce-Revenue-Analysis&title_color=ed6a5a&icon_color=5d576b&text_color=141414&bg_color=edf1e8&hide_border=true)](https://github.com/Abhiiiii7/Brazil-Ecommerce-Revenue-Analysis)
+[![Supply Chain Analytics — FMCG](https://github-readme-stats.vercel.app/api/pin/?username=Abhiiiii7&repo=supply-chain-analysis-in-the-fmcg-domain-atliqmart&title_color=ed6a5a&icon_color=5d576b&text_color=141414&bg_color=edf1e8&hide_border=true)](https://github.com/Abhiiiii7/supply-chain-analysis-in-the-fmcg-domain-atliqmart)
+
+[![ICU Mortality Analysis](https://github-readme-stats.vercel.app/api/pin/?username=Abhiiiii7&repo=Predicting-Mortality&title_color=ed6a5a&icon_color=5d576b&text_color=141414&bg_color=edf1e8&hide_border=true)](https://github.com/Abhiiiii7/Predicting-Mortality)
+[![Retail Data Analytics](https://github-readme-stats.vercel.app/api/pin/?username=Abhiiiii7&repo=retail-data-analytics-project-python-sql-integration&title_color=ed6a5a&icon_color=5d576b&text_color=141414&bg_color=edf1e8&hide_border=true)](https://github.com/Abhiiiii7/retail-data-analytics-project-python-sql-integration)
+
+</div>
+
+**Creator Economy & Algorithmic Performance Analytics** — Regression analysis of 2,467 promotional posts across 800 influencers, quantifying how creator authority and early engagement drive amplification; engineered normalized efficiency KPIs (CTR, clicks/1K reach, saves/1K reach) to expose a scale-efficiency tradeoff.
+
+**Healthcare Cost & Pricing Intelligence** — PostgreSQL pipeline standardizing 200+ hospital datasets into a 24-column model spanning 100K+ payer-procedure combinations (data quality +15%); Power BI dashboards surface insurer-level price variation.
+
+**E-Commerce Revenue Forecasting & Demand Analytics** — Analyzed 100K+ orders and $15.4M in revenue to surface seasonality, demand patterns, and revenue concentration; built a Power BI dashboard and forecasting model for inventory and revenue planning.
+
+---
+
+## Skills
+
+| Category | Tools & methods |
+|:---|:---|
+| **Languages & query** | SQL · MySQL · PostgreSQL · T-SQL · Python · DAX |
+| **BI & tools** | Power BI · Tableau · Excel · Git · Jupyter |
+| **Methods** | Forecasting · Regression · Statistical analysis · A/B testing · ETL · Data warehousing |
+| **Business intelligence** | Dashboard development · KPI reporting · Revenue & retention analysis · Data storytelling · Stakeholder reporting |
+
+<div align="center">
+
+![Stats](https://github-readme-stats.vercel.app/api?username=Abhiiiii7&show_icons=true&hide_border=true&title_color=ed6a5a&icon_color=5d576b&text_color=141414&bg_color=edf1e8)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Abhiiiii7&layout=compact&hide_border=true&title_color=ed6a5a&text_color=141414&bg_color=edf1e8)
+
+</div>
+
+---
+
+## Journey
+
+```mermaid
+timeline
+    title Education & Experience
+    section Education
+      2020 – 2024 : B.Tech Computer Science, Anurag University
+    section Experience
+      2022 – 2024 : Data Analyst Intern then Data Analyst, Indo Swiss Remedies
+      2023 – 2024 : Co-Founder and Analytics, D2C Herbal Tea Brand
+    section Graduate study
+      2024 – 2026 : M.S. Business Analytics, CSU Northridge
+```
+
+---
+
+## Education & certifications
+
+**M.S. Business Analytics** — California State University, Northridge · *2024 – 2026*
+**B.Tech. Computer Science** — Anurag University · *2020 – 2024*
+
+**Certifications:** Microsoft Azure Fundamentals (AZ-900) · Power Platform Fundamentals (PL-900) · Google Data Analytics · Deloitte Data Analytics · Python & Data Science
+
+---
+
+<div align="center">
+
+**Open to data analyst & business analytics roles.**
+[Portfolio](https://abhinavvarma.com) · [LinkedIn](https://www.linkedin.com/in/abhinav-varma723) · [Email](mailto:abhinavvarmakonderu@gmail.com)
+
+</div>
