@@ -1,0 +1,85 @@
+<svg viewBox="0 0 1000 1030" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="9 analytics projects">
+  <style>
+    :root { --bone: #444444; --rule: #C0C0C0; --muted: #888888; --dim: #AAAAAA; --accent: #555555; --ghost: #CCCCCC; }
+    @media (prefers-color-scheme: dark) { :root { --bone: #DDDDDD; --rule: #444444; --muted: #777777; --dim: #666666; --accent: #AAAAAA; --ghost: #2A2A2A; } }
+    .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .rise { opacity: 0; animation: rise .7s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes rise { from { opacity:0;transform:translateY(8px); } to { opacity:1;transform:translateY(0); } }
+    .fade { opacity: 0; animation: fade .7s ease forwards; }
+    @keyframes fade { to { opacity: 1; } }
+    .a1{animation-delay:0.1s} .a2{animation-delay:0.2s} .a3{animation-delay:0.35s} .a4{animation-delay:0.5s} .a5{animation-delay:0.65s} .a6{animation-delay:0.8s} .a7{animation-delay:0.95s} .a8{animation-delay:1.1s} .a9{animation-delay:1.25s} .a10{animation-delay:1.4s}
+    .title { font-family: ui-monospace,"SFMono-Regular","SF Mono",Menlo,Consolas,monospace; font-size:15px; fill:var(--bone); letter-spacing:1.5px; }
+    .copy { font-family: ui-monospace,"SFMono-Regular","SF Mono",Menlo,Consolas,monospace; font-size:13px; fill:var(--muted); }
+    .meta { font-family: ui-monospace,"SFMono-Regular","SF Mono",Menlo,Consolas,monospace; font-size:10.5px; fill:var(--dim); letter-spacing:1.5px; }
+    .rule { stroke:var(--rule); stroke-width:1; opacity:.5; }
+    .row { opacity:0; animation: rise .7s cubic-bezier(.2,.7,.2,1) forwards; }
+.r1{animation-delay:0.19s} .r2{animation-delay:0.28s} .r3{animation-delay:0.37s} .r4{animation-delay:0.46s} .r5{animation-delay:0.55s} .r6{animation-delay:0.64s} .r7{animation-delay:0.73s} .r8{animation-delay:0.82s} .r9{animation-delay:0.91s} .r10{animation-delay:1.00s}
+    @media (prefers-reduced-motion: reduce){.row{animation:none;opacity:1}}
+    @media (prefers-reduced-motion: reduce) { .rise,.fade,.draw { animation: none; } .rise,.fade { opacity: 1; } .draw { stroke-dashoffset: 0; } }
+  </style>
+  <g transform="translate(0 20)">
+    <g class="row r1" transform="translate(0 0)">
+      <text class="title" x="48" y="24">01 / FAFSA NUDGE EXPERIMENT</text>
+      <text class="copy" x="48" y="49">End-to-end A/B testing study measuring whether behavioural nudges lift FAFSA aid-renewal rates.</text>
+      <text class="copy" x="48" y="68">Pre-registered design, power analysis, CI pipeline and a stakeholder memo written without a single p-value.</text>
+      <text class="meta" x="48" y="87">PYTHON &#183; A/B TESTING &#183; CAUSAL INFERENCE &#183; CI</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+    <g class="row r2" transform="translate(0 110)">
+      <text class="title" x="48" y="24">02 / SOCIAL PROOF TO ACTION</text>
+      <text class="copy" x="48" y="49">Graduate research on algorithmic amplification and influencer authority across 10,000 posts from 800 accounts.</text>
+      <text class="copy" x="48" y="68">Regression-based mediation and moderation models with clustered standard errors to separate real effects from noise.</text>
+      <text class="meta" x="48" y="87">PYTHON &#183; R &#183; REGRESSION &#183; MEDIATION &#183; MODERATION</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+    <g class="row r3" transform="translate(0 220)">
+      <text class="title" x="48" y="24">03 / END-TO-END RETAIL BI DASHBOARD</text>
+      <text class="copy" x="48" y="49">Full retail analytics pipeline from raw transactions through to an executive-facing BI layer.</text>
+      <text class="copy" x="48" y="68">Cleaning, modelling and KPI design, surfaced as dashboards built for non-technical decision makers.</text>
+      <text class="meta" x="48" y="87">PYTHON &#183; SQL &#183; POWER BI &#183; TABLEAU &#183; KPI DESIGN</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+    <g class="row r4" transform="translate(0 330)">
+      <text class="title" x="48" y="24">04 / EXECUTIVE SALES REVENUE DASHBOARD</text>
+      <text class="copy" x="48" y="49">Revenue and performance reporting for a top-five product portfolio, framed for leadership review.</text>
+      <text class="copy" x="48" y="68">Trend decomposition and variance analysis translated into a single-screen executive view.</text>
+      <text class="meta" x="48" y="87">PYTHON &#183; DASHBOARDING &#183; REPORTING &#183; VARIANCE ANALYSIS</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+    <g class="row r5" transform="translate(0 440)">
+      <text class="title" x="48" y="24">05 / GLOBAL AUTISM ANALYTICS</text>
+      <text class="copy" x="48" y="49">Public-health analysis of global autism prevalence, diagnosis patterns and reporting gaps.</text>
+      <text class="copy" x="48" y="68">Data cleaning across inconsistent international sources, then comparative statistical analysis.</text>
+      <text class="meta" x="48" y="87">PYTHON &#183; EDA &#183; PUBLIC DATA &#183; STATISTICAL ANALYSIS</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+    <g class="row r6" transform="translate(0 550)">
+      <text class="title" x="48" y="24">06 / GLOBAL HUNGER &amp; CHILD MALNUTRITION</text>
+      <text class="copy" x="48" y="49">Cross-country study of hunger indices and child malnutrition indicators over time.</text>
+      <text class="copy" x="48" y="68">Correlation and trend analysis surfacing where reported progress diverges from underlying measures.</text>
+      <text class="meta" x="48" y="87">PYTHON &#183; EDA &#183; TIME SERIES &#183; DATA VISUALIZATION</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+    <g class="row r7" transform="translate(0 660)">
+      <text class="title" x="48" y="24">07 / TOP-10 MARKET GAP ANALYTICS</text>
+      <text class="copy" x="48" y="49">Market gap analysis identifying underserved segments across a ranked competitive set.</text>
+      <text class="copy" x="48" y="68">Gap scoring model with an interactive HTML output for browsing findings by segment.</text>
+      <text class="meta" x="48" y="87">HTML &#183; PYTHON &#183; GAP ANALYSIS &#183; MARKET RESEARCH</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+    <g class="row r8" transform="translate(0 770)">
+      <text class="title" x="48" y="24">08 / SPACEX IPO MARKET IMPACT</text>
+      <text class="copy" x="48" y="49">Event-style analysis of anticipated market impact around a high-profile IPO scenario.</text>
+      <text class="copy" x="48" y="68">Comparable-company framing with sensitivity checks on the headline assumptions.</text>
+      <text class="meta" x="48" y="87">PYTHON &#183; FINANCIAL ANALYSIS &#183; SCENARIO MODELLING</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+    <g class="row r9" transform="translate(0 880)">
+      <text class="title" x="48" y="24">09 / IRAN OIL CONFLICT ANALYTICS</text>
+      <text class="copy" x="48" y="49">Geopolitical-risk analysis linking conflict events to oil market movements.</text>
+      <text class="copy" x="48" y="68">Time-aligned event study joining commodity price series with conflict timelines.</text>
+      <text class="meta" x="48" y="87">PYTHON &#183; EVENT STUDY &#183; TIME SERIES &#183; RISK ANALYSIS</text>
+      <line class="rule" x1="48" y1="104" x2="952" y2="104"/>
+    </g>
+  </g>
+</svg>

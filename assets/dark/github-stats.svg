@@ -1,0 +1,37 @@
+<svg viewBox="0 0 1000 310" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub statistics and repository languages">
+  <style>
+    :root { --bone: #444444; --rule: #C0C0C0; --muted: #888888; --dim: #AAAAAA; --accent: #555555; --ghost: #CCCCCC; }
+    @media (prefers-color-scheme: dark) { :root { --bone: #DDDDDD; --rule: #444444; --muted: #777777; --dim: #666666; --accent: #AAAAAA; --ghost: #2A2A2A; } }
+    .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .rise { opacity: 0; animation: rise .7s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes rise { from { opacity:0;transform:translateY(8px); } to { opacity:1;transform:translateY(0); } }
+    .fade { opacity: 0; animation: fade .7s ease forwards; }
+    @keyframes fade { to { opacity: 1; } }
+    .a1{animation-delay:0.1s} .a2{animation-delay:0.2s} .a3{animation-delay:0.35s} .a4{animation-delay:0.5s} .a5{animation-delay:0.65s} .a6{animation-delay:0.8s} .a7{animation-delay:0.95s} .a8{animation-delay:1.1s} .a9{animation-delay:1.25s} .a10{animation-delay:1.4s}
+    .grow { transform:scaleX(0); transform-origin:left; animation:grow .8s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes grow { to { transform:scaleX(1); } }
+    .g2{animation-delay:.1s}.g3{animation-delay:.2s}
+    @media (prefers-reduced-motion:reduce){.grow{animation:none;transform:scaleX(1)}}
+    @media (prefers-reduced-motion: reduce) { .rise,.fade,.draw { animation: none; } .rise,.fade { opacity: 1; } .draw { stroke-dashoffset: 0; } }
+  </style>
+  <rect x="24" y="20" width="456" height="270" rx="2" stroke="var(--rule)" stroke-width="1" fill="none"/>
+  <rect x="520" y="20" width="456" height="270" rx="2" stroke="var(--rule)" stroke-width="1" fill="none"/>
+
+  <g class="mono">
+    <text x="52" y="58" font-size="15" font-weight="700" letter-spacing="2" fill="var(--bone)">GITHUB STATS</text>
+    <line x1="52" y1="72" x2="452" y2="72" stroke="var(--rule)" stroke-width="1"/>
+    <text x="52" y="110" font-size="11" letter-spacing="1" fill="var(--muted)">PUBLIC REPOSITORIES</text><text x="436" y="110" font-size="13" text-anchor="end" fill="var(--bone)">18</text>
+    <text x="52" y="146" font-size="11" letter-spacing="1" fill="var(--muted)">TOTAL STARS</text><text x="436" y="146" font-size="13" text-anchor="end" fill="var(--bone)">2</text>
+    <text x="52" y="182" font-size="11" letter-spacing="1" fill="var(--muted)">ANALYTICS PROJECTS</text><text x="436" y="182" font-size="13" text-anchor="end" fill="var(--bone)">9</text>
+    <text x="52" y="218" font-size="11" letter-spacing="1" fill="var(--muted)">AWS CERTIFICATIONS</text><text x="436" y="218" font-size="13" text-anchor="end" fill="var(--bone)">3</text>
+    <text x="52" y="254" font-size="11" letter-spacing="1" fill="var(--muted)">MEMBER SINCE</text><text x="436" y="254" font-size="13" text-anchor="end" fill="var(--bone)">2021</text>
+
+    <text x="548" y="58" font-size="15" font-weight="700" letter-spacing="2" fill="var(--bone)">LANGUAGES BY REPOSITORY</text>
+    <line x1="548" y1="72" x2="948" y2="72" stroke="var(--rule)" stroke-width="1"/>
+    <text x="548" y="105" font-size="10" fill="var(--muted)">PYTHON</text><rect x="660" y="94" width="270" height="12" stroke="var(--rule)" stroke-width="1" fill="none"/><rect class="grow" x="660" y="94" width="270" height="12" fill="var(--accent)"/>
+    <text x="548" y="141" font-size="10" fill="var(--muted)">HTML</text><rect x="660" y="130" width="270" height="12" stroke="var(--rule)" stroke-width="1" fill="none"/><rect class="grow g2" x="660" y="130" width="25" height="12" fill="var(--accent)"/>
+    <text x="548" y="177" font-size="10" fill="var(--muted)">JAVA</text><rect x="660" y="166" width="270" height="12" stroke="var(--rule)" stroke-width="1" fill="none"/><rect class="grow g3" x="660" y="166" width="25" height="12" fill="var(--accent)"/>
+    <text x="548" y="222" font-size="10" fill="var(--dim)">SQL, R, TABLEAU AND POWER BI WORK LIVES INSIDE</text>
+    <text x="548" y="240" font-size="10" fill="var(--dim)">NOTEBOOKS AND WORKBOOKS, NOT AS REPO LANGUAGES.</text>
+  </g>
+</svg>

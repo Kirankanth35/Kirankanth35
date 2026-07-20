@@ -1,0 +1,72 @@
+<svg viewBox="0 0 1000 680" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="System map: data in, decisions out">
+  <style>
+    :root { --bone: #444444; --rule: #C0C0C0; --muted: #888888; --dim: #AAAAAA; --accent: #555555; --ghost: #CCCCCC; }
+    @media (prefers-color-scheme: dark) { :root { --bone: #DDDDDD; --rule: #444444; --muted: #777777; --dim: #666666; --accent: #AAAAAA; --ghost: #2A2A2A; } }
+    .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .rise { opacity: 0; animation: rise .7s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes rise { from { opacity:0;transform:translateY(8px); } to { opacity:1;transform:translateY(0); } }
+    .fade { opacity: 0; animation: fade .7s ease forwards; }
+    @keyframes fade { to { opacity: 1; } }
+    .a1{animation-delay:0.1s} .a2{animation-delay:0.2s} .a3{animation-delay:0.35s} .a4{animation-delay:0.5s} .a5{animation-delay:0.65s} .a6{animation-delay:0.8s} .a7{animation-delay:0.95s} .a8{animation-delay:1.1s} .a9{animation-delay:1.25s} .a10{animation-delay:1.4s}
+    .n { opacity:0; animation: rise .7s cubic-bezier(.2,.7,.2,1) forwards; }
+    .ln { stroke: var(--rule); stroke-width:1; stroke-dasharray:300; stroke-dashoffset:300; animation: dl 1.1s cubic-bezier(.6,0,.2,1) forwards; }
+    @keyframes dl { to { stroke-dashoffset:0; } }
+    @media (prefers-reduced-motion: reduce){.n{animation:none;opacity:1}.ln{animation:none;stroke-dashoffset:0}}
+    @media (prefers-reduced-motion: reduce) { .rise,.fade,.draw { animation: none; } .rise,.fade { opacity: 1; } .draw { stroke-dashoffset: 0; } }
+  </style>
+  <text class="mono fade a1" x="48" y="30" font-size="11" fill="var(--muted)" letter-spacing="3.5">SYSTEM MAP</text>
+  <text class="mono fade a1" x="952" y="30" font-size="11" fill="var(--muted)" letter-spacing="3.5" text-anchor="end">FIG. 01</text>
+  <line class="ln a1" x1="48" y1="48" x2="952" y2="48"/>
+
+  <g class="n a2">
+    <rect x="380" y="96" width="240" height="76" rx="2" stroke="var(--accent)" stroke-width="1.5" fill="none"/>
+    <text class="mono" x="500" y="128" font-size="14" fill="var(--bone)" letter-spacing="2" text-anchor="middle">RAW DATA</text>
+    <text class="mono" x="500" y="150" font-size="11" fill="var(--muted)" text-anchor="middle">CSV &#183; SQL &#183; public datasets &#183; surveys</text>
+  </g>
+
+  <line class="ln a3" x1="500" y1="172" x2="500" y2="212"/>
+
+  <g class="n a3">
+    <rect x="330" y="212" width="340" height="76" rx="2" stroke="var(--rule)" stroke-width="1" fill="none"/>
+    <text class="mono" x="500" y="244" font-size="13" fill="var(--bone)" letter-spacing="2" text-anchor="middle">CLEAN &#183; MODEL &#183; TEST</text>
+    <text class="mono" x="500" y="266" font-size="11" fill="var(--muted)" text-anchor="middle">pandas &#183; regression &#183; hypothesis tests &#183; A/B</text>
+  </g>
+
+  <line class="ln a4" x1="500" y1="288" x2="500" y2="322"/>
+  <line class="ln a4" x1="170" y1="322" x2="830" y2="322"/>
+  <line class="ln a4" x1="170" y1="322" x2="170" y2="356"/>
+  <line class="ln a4" x1="500" y1="322" x2="500" y2="356"/>
+  <line class="ln a4" x1="830" y1="322" x2="830" y2="356"/>
+
+  <g class="n a5">
+    <rect x="48" y="356" width="244" height="84" rx="2" stroke="var(--rule)" stroke-width="1" fill="none"/>
+    <text class="mono" x="64" y="384" font-size="12.5" fill="var(--bone)" letter-spacing="1">DASHBOARDS</text>
+    <text class="mono" x="64" y="406" font-size="11" fill="var(--muted)">Tableau &#183; Power BI &#183; KPI views</text>
+  </g>
+  <g class="n a6">
+    <rect x="378" y="356" width="244" height="84" rx="2" stroke="var(--rule)" stroke-width="1" fill="none"/>
+    <text class="mono" x="394" y="384" font-size="12.5" fill="var(--bone)" letter-spacing="1">EXPERIMENTS</text>
+    <text class="mono" x="394" y="406" font-size="11" fill="var(--muted)">A/B tests &#183; causal estimates</text>
+  </g>
+  <g class="n a7">
+    <rect x="708" y="356" width="244" height="84" rx="2" stroke="var(--rule)" stroke-width="1" fill="none"/>
+    <text class="mono" x="724" y="384" font-size="12.5" fill="var(--bone)" letter-spacing="1">RESEARCH</text>
+    <text class="mono" x="724" y="406" font-size="11" fill="var(--muted)">regression studies &#183; papers</text>
+  </g>
+
+  <line class="ln a7" x1="170" y1="440" x2="170" y2="474"/>
+  <line class="ln a7" x1="500" y1="440" x2="500" y2="474"/>
+  <line class="ln a7" x1="830" y1="440" x2="830" y2="474"/>
+  <line class="ln a7" x1="170" y1="474" x2="830" y2="474"/>
+  <line class="ln a7" x1="500" y1="474" x2="500" y2="508"/>
+
+  <g class="n a8">
+    <rect x="300" y="508" width="400" height="86" rx="2" stroke="var(--accent)" stroke-width="1.5" fill="none"/>
+    <text class="mono" x="500" y="542" font-size="14" fill="var(--bone)" letter-spacing="2" text-anchor="middle">STAKEHOLDER DECISION</text>
+    <text class="mono" x="500" y="564" font-size="11" fill="var(--muted)" text-anchor="middle">memo &#183; recommendation &#183; measurable action</text>
+    <text class="mono" x="500" y="582" font-size="10.5" fill="var(--dim)" text-anchor="middle">the only output that actually counts</text>
+  </g>
+
+  <line class="ln a8" x1="48" y1="628" x2="952" y2="628"/>
+  <text class="mono fade a8" x="48" y="654" font-size="11" fill="var(--muted)" letter-spacing="2">ONE PIPELINE &#8212; QUESTION &#8594; EVIDENCE &#8594; DECISION</text>
+</svg>

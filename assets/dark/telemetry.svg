@@ -1,0 +1,40 @@
+<svg viewBox="0 0 1000 330" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Telemetry: languages, counters, tooling">
+  <style>
+    :root { --bone: #444444; --rule: #C0C0C0; --muted: #888888; --dim: #AAAAAA; --accent: #555555; --ghost: #CCCCCC; }
+    @media (prefers-color-scheme: dark) { :root { --bone: #DDDDDD; --rule: #444444; --muted: #777777; --dim: #666666; --accent: #AAAAAA; --ghost: #2A2A2A; } }
+    .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .rise { opacity: 0; animation: rise .7s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes rise { from { opacity:0;transform:translateY(8px); } to { opacity:1;transform:translateY(0); } }
+    .fade { opacity: 0; animation: fade .7s ease forwards; }
+    @keyframes fade { to { opacity: 1; } }
+    .a1{animation-delay:0.1s} .a2{animation-delay:0.2s} .a3{animation-delay:0.35s} .a4{animation-delay:0.5s} .a5{animation-delay:0.65s} .a6{animation-delay:0.8s} .a7{animation-delay:0.95s} .a8{animation-delay:1.1s} .a9{animation-delay:1.25s} .a10{animation-delay:1.4s}
+    .grow { transform:scaleX(0); transform-origin:left; animation:grow .9s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes grow { to { transform:scaleX(1); } }
+.g1{animation-delay:0.1s} .g2{animation-delay:0.2s} .g3{animation-delay:0.3s} .g4{animation-delay:0.4s} .g5{animation-delay:0.5s} .g6{animation-delay:0.6s}
+    .cnt { opacity:0; animation: rise .8s cubic-bezier(.2,.7,.2,1) forwards; }
+    @media (prefers-reduced-motion: reduce){.grow{animation:none;transform:scaleX(1)}.cnt{animation:none;opacity:1}}
+    @media (prefers-reduced-motion: reduce) { .rise,.fade,.draw { animation: none; } .rise,.fade { opacity: 1; } .draw { stroke-dashoffset: 0; } }
+  </style>
+  <text class="mono fade a1" x="48" y="30" font-size="11" fill="var(--muted)" letter-spacing="3.5">TELEMETRY</text>
+  <text class="mono fade a1" x="952" y="30" font-size="11" fill="var(--muted)" letter-spacing="3.5" text-anchor="end">FIG. 02</text>
+  <line x1="48" y1="48" x2="952" y2="48" stroke="var(--rule)" stroke-width="1"/>
+
+  <text class="mono fade a2" x="48" y="76" font-size="11" fill="var(--muted)" letter-spacing="2">LANGUAGE DISTRIBUTION BY REPOSITORY</text>
+    <text class="mono" x="48" y="107" font-size="10.5" fill="var(--muted)" letter-spacing="1.5">PYTHON</text><rect x="160" y="96" width="270" height="12" stroke="var(--rule)" stroke-width="1" fill="none"/><rect class="grow g1" x="160" y="96" width="270" height="12" fill="var(--accent)"/><text class="mono" x="446" y="107" font-size="10.5" fill="var(--dim)">11</text>
+    <text class="mono" x="48" y="143" font-size="10.5" fill="var(--muted)" letter-spacing="1.5">HTML</text><rect x="160" y="132" width="270" height="12" stroke="var(--rule)" stroke-width="1" fill="none"/><rect class="grow g2" x="160" y="132" width="25" height="12" fill="var(--accent)"/><text class="mono" x="446" y="143" font-size="10.5" fill="var(--dim)">1</text>
+    <text class="mono" x="48" y="179" font-size="10.5" fill="var(--muted)" letter-spacing="1.5">JAVA</text><rect x="160" y="168" width="270" height="12" stroke="var(--rule)" stroke-width="1" fill="none"/><rect class="grow g3" x="160" y="168" width="25" height="12" fill="var(--accent)"/><text class="mono" x="446" y="179" font-size="10.5" fill="var(--dim)">1</text>
+
+  <text class="mono fade a2" x="560" y="76" font-size="11" fill="var(--muted)" letter-spacing="2">COUNTERS</text>
+  <g class="cnt a3"><text class="mono" x="560" y="130" font-size="30" fill="var(--bone)">18</text><text class="mono" x="560" y="150" font-size="9.5" fill="var(--muted)" letter-spacing="1.2">PUBLIC REPOS</text></g>
+  <g class="cnt a4"><text class="mono" x="668" y="130" font-size="30" fill="var(--bone)">9</text><text class="mono" x="668" y="150" font-size="9.5" fill="var(--muted)" letter-spacing="1.2">ANALYTICS PROJECTS</text></g>
+  <g class="cnt a5"><text class="mono" x="776" y="130" font-size="30" fill="var(--bone)">3</text><text class="mono" x="776" y="150" font-size="9.5" fill="var(--muted)" letter-spacing="1.2">AWS CERTS</text></g>
+  <g class="cnt a6"><text class="mono" x="884" y="130" font-size="30" fill="var(--bone)">2026</text><text class="mono" x="884" y="150" font-size="9.5" fill="var(--muted)" letter-spacing="1.2">MS COMPLETED</text></g>
+
+  <line x1="48" y1="212" x2="952" y2="212" stroke="var(--rule)" stroke-width="1" opacity=".5"/>
+  <text class="mono fade a4" x="48" y="240" font-size="11" fill="var(--muted)" letter-spacing="2">PRIMARY TOOLING</text>
+  <text class="mono fade a4" x="240" y="240" font-size="13" fill="var(--bone)">Python &#183; SQL &#183; R &#183; Tableau &#183; Power BI &#183; Excel</text>
+  <text class="mono fade a5" x="48" y="270" font-size="11" fill="var(--muted)" letter-spacing="2">METHODS</text>
+  <text class="mono fade a5" x="240" y="270" font-size="13" fill="var(--bone)">A/B testing &#183; regression &#183; mediation &#183; hypothesis testing</text>
+  <text class="mono fade a6" x="48" y="300" font-size="11" fill="var(--muted)" letter-spacing="2">ACCOUNT SINCE</text>
+  <text class="mono fade a6" x="240" y="300" font-size="13" fill="var(--bone)">October 2021</text>
+</svg>
